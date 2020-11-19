@@ -1,0 +1,432 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .gray {
+	padding: 2px 32px;
+}
+.toprowright ul {
+	padding: 5px 0;
+}
+    .toprowright .btneffect {
+	font-size: 20px;
+}
+.toprowright ul li {
+	padding: 1px;
+}
+.maintext {
+	margin: 30px 70px 30px 97px;
+}
+    .importancetext h3 {
+	margin-left: 35%;
+}
+    .importancetext .btneffect {
+	margin-left: 9%;
+}
+    .element h4 {
+	margin: 10px 12%;
+}
+    .btneffect2 {
+	font-size: 20px;
+}
+    
+    .firstbox {
+	width: 100px;
+}
+    .secondbox {
+	width: 140px;
+}
+    .producttitel h2 {
+	font-size: 16px;
+}
+    .product h3 {
+	margin: 0 30px;
+}
+    .footerimg {
+	margin-top: 10%;
+}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.toprowright ul {
+	padding: 5px 0;
+}
+    .toprowright .btneffect {
+	font-size: 20px;
+}
+.toprowright ul li {
+	padding: 1px 0 3px 0;
+}
+.maintext {
+	margin: 30px 34px 30px 0px;
+}
+    .importancetext h3 {
+	margin-left: 12%;
+}
+    .importancetext .btneffect {
+	margin-left: 0;
+	font-size: 17px;
+}
+    .element h4 {
+	margin: 10px 12%;
+}
+    .toprowright .btneffect {
+	font-size: 15px;
+        margin-left: -35%;
+}
+    
+    .firstbox {
+	width: 70px;
+}
+    .secondbox {
+	width: 100px;
+}
+    .producttitel h2 {
+	font-size: 16px;
+        margin: 0px 10px;
+        margin-bottom: -32px;
+}
+    
+    .product h3 {
+	margin: 0 6px;
+        font-size: 17px;
+}
+    .footerimg {
+	margin-top: 22%;
+    margin-left: 20%;
+}
+    .footerright h2 {
+	font-size: 31px;
+	margin-right: 0%;
+	margin-top: 25px;
+}
+    .toprowright {
+	padding-top: 0px;
+}
+   .importanceimage {
+	margin-top: 100%;
+	transform: translateY(-50%);
+} 
+    .titel h3 {
+	font-size: 34px;
+}
+    .benifit {
+	padding: 90px 0;
+}
+    .fruite .btneffect {
+	font-size: 16px;
+}
+    .item p {
+	font-size: 15px;
+	padding: 22px 5%;
+	margin-bottom: 15px;
+}
+    .btneffect2 {
+	font-size: 15px;
+}
+    .boxgraph h2 {
+	font-size: 29px;
+}
+    .graphitext {
+	margin: 0 0;
+}
+    .product h6 {
+	padding: 10px 30px;
+    }
+    .product a {
+	font-size: 18px;
+}
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .gray {
+	padding: 2px 13px;
+}
+.toprowright ul {
+	padding: 5px 0;
+}
+    .toprowright .btneffect {
+	font-size: 20px;
+}
+.toprowright ul li {
+	padding: 1px 0 10px 0;
+}
+.maintext {
+	margin: 30px 0px 30px 0px;
+}
+    .importancetext h3 {
+	margin-left: 0%;
+}
+    .importancetext .btneffect {
+	margin-left: 0;
+	font-size: 12px;
+}
+    .element h4 {
+	margin: 10px 0%;
+}
+    .toprowright .btneffect {
+	font-size: 12px;
+	margin-bottom: 50px !important;
+}
+    
+    .firstbox {
+	width: 70px;
+}
+    .secondbox {
+	width: 100px;
+}
+    .producttitel h2 {
+	font-size: 16px;
+        margin: 0px 10px;
+        margin-bottom: -32px;
+}
+    
+    .product h3 {
+	margin: 0 6px;
+        font-size: 17px;
+}
+    .footerimg {
+	margin-top: 46%;
+	margin-left: 7%;
+}
+    .footerright h2 {
+	font-size: 31px;
+	margin-right: 0%;
+	margin-top: 25px;
+}
+    .toprowright {
+	padding-top: 20px;
+}
+   .importanceimage {
+	margin-top: 100%;
+	transform: translateY(24%);
+}
+    .importance {
+	padding: 70px 0;
+}
+    .titel h3 {
+	font-size: 34px;
+}
+    .benifit {
+	padding: 90px 0;
+}
+    .fruite .btneffect {
+	font-size: 12px;
+}
+    .item p {
+	font-size: 15px;
+	padding: 22px 5%;
+	margin-bottom: 15px;
+}
+    .btneffect2 {
+	font-size: 12px;
+        margin-left: 45%;
+}
+    .boxgraph h2 {
+	font-size: 29px;
+}
+    .graphitext {
+	margin: 0 0;
+}
+    .product h6 {
+	padding: 10px 30px;
+    }
+    .product a {
+	font-size: 18px;
+}
+.toppicture {
+	padding-bottom: 90px;
+	margin-top: 90px;
+}
+.product {
+	margin-bottom: 30px;
+}
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+.toprowright ul {
+	padding: 5px 0;
+}
+    .toprowright .btneffect {
+	font-size: 20px;
+}
+.toprowright ul li {
+	padding: 1px 0 10px 0;
+}
+.maintext {
+	margin: 30px 0px 30px 0px;
+}
+    .importancetext h3 {
+	margin-left: 0%;
+}
+    .importancetext .btneffect {
+	font-size: 8px;
+	transform: translate( -50%,-50%);
+	margin-left: 50%;
+	width: 74%;
+	text-align: center;
+        margin-top: 30px;
+}
+    .element h4 {
+	margin: 10px 0%;
+}
+    .toprowright .btneffect {
+	font-size: 8px;
+	transform: translate( -50%,-50%);
+	margin-left: 50%;
+	width: 74%;
+	text-align: center;
+   margin-top: 40px;
+}
+    
+    .firstbox {
+	width: 40%;
+}
+    .secondbox {
+	width: 55%;
+}
+    .producttitel h2 {
+	font-size: 16px;
+    margin: 0px 10px;
+    margin-bottom: -32px;
+}
+    .timetitel {
+	 margin-bottom: 0px; 
+}
+    
+    .product h3 {
+	margin: 0 29px;
+	font-size: 17px;
+}
+    .footerimg {
+	font-size: 8px;
+	transform: translateX( -50%);
+	margin-left: 50%;
+	width: 71%;
+	text-align: center;
+}
+   .footerright h2 {
+	font-size: 31px;
+	margin-right: 0%;
+	margin-top: 25px;
+	text-align: center;
+}
+    .toprowright {
+	padding-top: 20px;
+}
+    .importanceimage {
+	margin-top: 0;
+	transform: translateY(24%);
+	margin-bottom: 20px;
+}
+    .footerright h3 {
+	text-align: center;
+}
+    .footerright h6 {
+	margin-right: 0%;
+	text-align: center;
+}
+    .importance {
+	padding: 70px 0;
+}
+   .titel h3 {
+	font-size: 22px;
+	padding: 0 0%;
+}
+    .benifit {
+	padding: 90px 0;
+}
+    .fruite .btneffect {
+	font-size: 8px;
+	transform: translate( -50%,-50%);
+	left: 50%;
+	width: 71%;
+            top: 34px;
+	text-align: center;
+}
+    .fruite .titel h3 {
+	padding: 70px 20px;
+}
+    .item p {
+	font-size: 15px;
+	padding: 22px 5%;
+	margin-bottom: 15px;
+}
+    .btneffect2 {
+	font-size: 8px;
+	transform: translate( -50%,-50%);
+	left: 50%;
+	width: 71%;
+	text-align: center;
+
+}
+    .boxgraph h2 {
+	font-size: 19px;
+}
+    .graphitext {
+	margin: 0 0;
+}
+    .product h6 {
+	padding: 10px 30px;
+    }
+    .product a {
+	font-size: 18px;
+}
+.toppicture {
+	padding-bottom: 90px;
+	margin-top: 20px;
+}
+.product {
+	margin-bottom: 30px;
+}
+.gray {
+	padding: 5px 7px;
+}
+    .top {
+	overflow-x: hidden !important;
+}
+    .importance {
+    overflow-x: hidden !important;
+}
+    .benifit {
+    overflow-x: hidden !important;
+}
+   .fruite {
+	overflow-x: hidden !important;
+	padding-top: 67px;
+}
+    .boxgraph {
+     overflow-x: hidden !important;    
+}
+    .productprice {
+     overflow-x: hidden !important;    
+}
+    .cowndown {
+        overflow-x: hidden !important;  
+}
+    .collapsepart {
+        overflow-x: hidden !important;  
+}
+    .footer {
+        overflow-x: hidden !important;  
+}
+    .fruite .btneffect {
+	margin-top: 23px;
+}
+    
+}
+
+
+
+

@@ -1,0 +1,535 @@
+/*
+Section Table:
+1. top
+2. importance
+3. benifit
+4. fruite
+5. boxgraph
+6. productprice
+7. cowndown
+8. collapsepart
+9. footer
+*/
+
+/*google font*/
+/*    font-family: 'Noto Sans TC', sans-serif;*/
+/*    font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&family=Roboto:wght@300;400&display=swap');
+/*google font*/
+
+/*lets Begin*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*end of common css*/
+/*<!--   top start-->*/
+.top {
+    background: #cdcdcd;
+}
+
+.mainlogo {
+    text-align: center;
+    padding: 90px 0 45px 0;
+}
+
+.logotext h2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    color: #266d05;
+}
+
+.logotext h3 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #8e8e8f;
+    padding-bottom: 90px;
+}
+
+.toppicture {
+    padding-bottom: 60px;
+}
+
+.toprowright {
+    padding-top: 105px;
+}
+
+.toprowright h6 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.toprowright ul {
+    padding: 40px 0;
+}
+
+.toprowright ul li {
+    padding: 6px 0;
+}
+
+.toprowright ul li p {
+    margin-bottom: 0;
+    font-size: 17px;
+    background: #e9e9e9;
+    display: inline-block;
+    padding: 0 5px;
+    color: #45486e;
+}
+
+.toprowright ul li i {
+    font-size: 22px;
+    color: #266d05;
+}
+
+.toprowright .btneffect {
+    padding: 13px 10px;
+    border-radius: 27px;
+    background: #266d05;
+    color: #fff;
+    text-shadow: 3px 1px 25px #fff;
+    font-weight: 700;
+    border: 5px solid #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: -29%;
+}
+
+.toprowright .btneffect:hover {
+    text-decoration: none;
+}
+
+.toprowright .btneffect:focus {
+    outline: 0;
+}
+
+/*<!--   top end-->*/
+/*<!--    importance start-->*/
+.importance {
+    padding: 150px 0;
+    background:
+}
+
+.importancetext h3 {
+    text-align: right;
+    margin-left: 45%;
+    font-size: 33px;
+    font-weight: 700;
+    color: #266d05;
+}
+
+.maintext {
+    margin: 30px 70px 30px 220px;
+}
+
+.maintext p {
+    text-align: right;
+    color: #46475a;
+}
+
+.maintext h5 {
+    font-size: 18px;
+    text-align: right;
+    line-height: 23px;
+}
+
+.gray {
+    color: #fff;
+    background: #979798;
+    padding: 2px 10px;
+}
+
+.importancetext .btneffect {
+    padding: 13px 10px;
+    border-radius: 27px;
+    background: #266d05;
+    color: #fff;
+    text-shadow: 3px 1px 25px #fff;
+    font-weight: 700;
+    border: 5px solid #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 24%;
+    box-shadow: 1px 5px 8px #000;
+}
+
+.importancetext .btneffect:hover {
+    text-decoration: none;
+}
+
+.importanceimage {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50%;
+    transform: translateY(-33%);
+}
+
+/*<!--    importance end-->*/
+/*<!--    benifit start-->*/
+.benifit {
+    background: #cdcdcd;
+    padding-top: 70px;
+}
+
+.titel h3 {
+    font-size: 40px;
+    color: #266d05;
+    font-weight: 700;
+    padding: 0 11%;
+}
+
+.titel p {
+    font-size: 17px;
+    color: blue;
+    padding-bottom: 30px;
+}
+
+.element {
+    padding: 10px 0;
+}
+
+.element h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 19%;
+}
+
+.element p {
+    font-size: 16px;
+}
+
+/*<!--    benifit end-->*/
+/*<!--    fruite start-->*/
+.fruite {
+    position: relative;
+}
+
+.fruite .btneffect {
+    padding: 13px 10px;
+    border-radius: 27px;
+    background: #266d05;
+    color: #fff;
+    text-shadow: 3px 1px 25px #fff;
+    font-weight: 700;
+    border: 5px solid #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    box-shadow: 1px 5px 8px #000;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fruite .titel h3 {
+    padding: 90px 70px;
+}
+
+.fruite .btneffect:hover {
+    text-decoration: none;
+}
+
+.item p {
+    font-size: 15px;
+    padding: 20px 15%;
+    margin-bottom: 30px;
+}
+
+.btneffect2 {
+    padding: 13px 10px;
+    border-radius: 27px;
+    background: #266d05;
+    color: #fff;
+    text-shadow: 3px 1px 25px #fff;
+    font-weight: 700;
+    border: 5px solid #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    box-shadow: 1px 5px 8px #000;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.btneffect2:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*<!--    fruite end-->*/
+/*<!--    boxgraph start-->*/
+.boxgraph {
+    padding: 70px 0;
+    background: #cdcdcd;
+}
+
+.boxgraph h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.greencolor {
+    background: green;
+    color: #fff;
+    padding: 2px 14px;
+}
+
+.firstbox {
+    height: 270px;
+    width: 120px;
+    background: #d6d6d6;
+    border: 5px solid #fff;
+    float: left;
+    position: relative;
+    margin: 1px;
+}
+
+.firstbox h5 {
+    position: absolute;
+    top: 97%;
+    left: 34%;
+}
+
+.secondbox {
+    height: 350px;
+    width: 160px;
+    background: #d6d6d6;
+    border: 5px solid #fff;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.secondbox h5 {
+    position: relative;
+    top: 97%;
+    left: 54%;
+}
+
+.graph {
+    margin-left: 10%;
+    margin-top: 70px;
+}
+
+.graphitext {
+    margin: 0 40px;
+}
+
+.graphitext h6 {
+    font-size: 23px;
+    color: green;
+}
+
+.graphitext h4 {
+    font-size: 27px;
+    color: green;
+    font-weight: 700;
+}
+
+.graphitext p {
+    font-size: 16px;
+}
+
+.star {
+    font-weight: 700;
+}
+
+/*<!--    boxgraph end-->*/
+/*<!--    productprice start-->*/
+.productprice {
+    padding: 90px 0;
+}
+
+.producttitel h2 {
+    font-size: 20px;
+    margin: 0px 65px;
+    color: #fff;
+    border-radius: 50px;
+    background: green;
+    padding: 10px 0;
+    font-weight: 700;
+    margin-bottom: -32px;
+}
+
+.span1 {
+    display: block;
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.span2 {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.product {
+    border: 3px solid green;
+    border-radius: 40px;
+}
+
+.product img {
+    padding: 20px 0;
+}
+
+.product h3 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    background: #266d05;
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 40px;
+    margin: 0 40px;
+}
+
+.product h6 {
+    font-size: 17px;
+    padding: 10px 75px;
+    color: #878787;
+}
+
+.blckbold {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.rs {
+    font-size: 17px;
+    font-weight: 700;
+    color: green;
+}
+
+.product h5 {
+    font-size: 30px;
+    font-weight: 700;
+    color: green;
+}
+
+.product a {
+    padding: 13px 10px;
+    border-radius: 27px;
+    background: #266d05;
+    color: #fff;
+    text-shadow: 3px 1px 25px #fff;
+    font-weight: 700;
+    border: 5px solid #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    box-shadow: 1px 5px 8px #000;
+    margin-bottom: 30px;
+}
+
+.product a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*<!--    productprice end-->*/
+/*<!--    cowndown start-->*/
+.time {
+    padding: 30px 30px;
+    border-radius: 30px;
+    color: #fff;
+    border: 3px solid red;
+    color: red;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.timetitel {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: red;
+    margin-bottom: 60px;
+}
+
+.semi h2 {
+    font-size: 80px;
+    color: red;
+    font-weight: 700;
+}
+
+/*<!--    cowndown end-->*/
+/*<!--    collapsepart start-->*/
+.collapsepart {
+    padding: 60px 0;
+}
+
+.btn {
+    width: 100% !important;
+    background: #767171 !important;
+    color: #fff;
+    text-align: left;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+/*<!--    collapsepart end-->*/
+/*<!--    footer start-->*/
+.footer {
+    background: #474746;
+    padding: 50px 0;
+}
+
+.footerimg {
+    margin-left: 30%;
+}
+
+.footerright h2 {
+    font-size: 35px;
+    color: #f8cb00;
+    font-weight: 700;
+    margin-right: 10%;
+    margin-top: 25px;
+}
+
+.footerright h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footerright h6 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 10%;
+}
+
+/*<!--    footer end-->*/
